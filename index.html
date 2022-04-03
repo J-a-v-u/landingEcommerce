@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Plantas Del Cielo</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="landing.css">
+        <link rel="stylesheet" href="contacto.css">
+    </head>
+    <body>
+        
+        <section class="header">
+            <div class="header__contenedor">
+                <img class="header__logo" src="images/logo.jpg" alt="logo">
+                <p class="header__logo__nombre">Plantas Del Cielo</p>
+            </div>
+
+            <section class="busquedaYlogin">
+                <div class="busqueda">
+                    <form action="" method="">		    
+                        <input type="search" placeholder="Search...">		    	
+                        <button class="header__btn">Search</button>
+                    </form>
+                </div>
+           
+
+                <div class="login">
+                    <button class="header__btn" id="login">Login</button>
+                </div>
+            </section>  
+        </section>
+
+        <div>  
+            <p class="header__busqueda__descripcion">Estación de rescate de plantas epífitas y ventas de plantas ornamentales.</p>
+        </div>
+
+
+        <section class="contenedor__tienda">
+            <div class="orchid"> 
+                <img src="images/orchid.png" alt="orquidea">              
+            </div>
+
+            <div class="tienda__link">
+                 <a href="https://j-a-v-u.github.io/challengeFE2ecommerce/?"> Acceda aquí para ver las plantas a la venta disponibles en este momento.</a>
+            </div>
+        </section>
+
+
+
+
+        
+        <section class="mapa">
+            <div class="mapa__contenido">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7249.093379665039!2d-65.37499005958911!3d-24.70810508595971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ec0c6a39fe101d3!2zMjTCsDQyJzI4LjgiUyA2NcKwMjInMTUuMCJX!5e0!3m2!1ses-419!2sar!4v1648969724810!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="mapa__textos">
+                 <h3 class="mapa__titulo">Nuestra Ubicación</h3>
+                 <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+            </div>
+        </section>
+        
+
+
+        <section class="fondo">  
+            <div id="contacto">     
+                
+                    
+                <h2 class="contacto__titulo">Contacto </h2>
+                        <div class="libro">
+                
+                            <div class="cube" id="config"></div>
+                            
+                        </div>
+
+                        <form class="contacto__datos">
+                            <label for="nombreapellido">Nombre y Apellido</label>
+                            <input type="text" id="nombreapellido" class="input-padron" required>
+                            <div class="error__contenedor">
+                                <p class="error__nombreapellido">Mensaje de error</p>
+                            </div>
+
+                            <label for="correoelectronico">Correo Electrónico</label>
+                            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                            <div class="error__contenedor">
+                                <p class="error__correo">Mensaje de error</p>
+                            </div>
+
+                            <label for="mensaje">Mensaje</label>
+                            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                            <div class="error__contenedor">
+                                <p class="error__mensaje">Mensaje de error</p>
+                            </div>
+
+                            <input type="submit" value="Enviar formulario" class="header__btn"  id="contacto__boton" onclick="multicomprobacion()">
+
+                        </form>
+        
+             </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+            <script src="scripts.js"></script>
+    </body>
+</html>
