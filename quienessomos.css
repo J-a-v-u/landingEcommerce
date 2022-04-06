@@ -1,0 +1,131 @@
+
+
+.texto{
+    margin: 2rem 10%;
+}
+@media screen and (max-width: 1023px) {
+	.texto{
+	margin: 2rem 5%;
+	}
+}
+
+
+
+
+.texto__problema {
+    color:white;
+}
+
+.texto__problema h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;    
+    }
+
+.texto__problema p{
+    text-align: justify ;
+    font-size: 1.25rem
+        
+}
+
+
+
+
+
+.texto__proposito {
+    color:white;
+    margin:2rem 0;
+}
+
+.texto__proposito h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;    
+    font-weight: bold;
+    }
+
+.texto__proposito p{
+    text-align: justify ;
+    font-size: 1.25rem        
+}
+
+
+.texto__proposito ol {
+    list-style-type: decimal;
+}
+
+.texto__proposito li{
+    text-align: justify ;
+    font-size: 1.25rem;      
+    margin: 1rem 0; 
+}
+
+
+
+
+.texto__conservacion {
+    color:white;
+    margin:2rem 0;
+}
+
+.texto__conservacion h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;    
+    font-weight: bold;
+    }
+
+.texto__conservacion ol {
+    list-style-type: decimal;
+}
+
+.texto__conservacion li{
+    text-align: justify ;
+    font-size: 1.25rem;      
+    margin: 1rem 0; 
+}
+
+
+
+
+
+.texto__valor {
+    color:white;
+    margin:2rem 0;
+}
+
+.texto__valor h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;    
+    font-weight: bold;
+    }
+
+.texto__valor ol {
+    list-style-type: circle;
+}
+
+.texto__valor li{
+    text-align: justify ;
+    font-size: 1.25rem;      
+    margin: 1rem 0; 
+}
+
+
+
+
+
+.texto__historia {
+    color:white;
+    margin:2rem 0;
+}
+
+.texto__historia h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;    
+    font-weight: bold;
+    }
+
+.texto__historia li{
+    text-align: justify ;
+    font-size: 1.25rem;      
+    margin: 1rem 0; 
+}
+
