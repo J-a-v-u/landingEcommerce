@@ -1,14 +1,24 @@
-#contacto {
-  color: white;
+.fondo{
   margin: 1.5rem 10% 1.5rem 10%;
-  text-align: center;
-  padding: 1vw;
 }
 
-@media screen and (min-width: 780px) and (max-width: 1023px) {
+#contacto {
+  color: white;
+  display:flex;
 
+  width:100%;
+  text-align: center;
+  padding: 1vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1023px) {
   #contacto {
-    margin: 1.5rem 2.5% 1.5rem 2.5%;
+    justify-content: center;
   }
 }
 
@@ -16,7 +26,155 @@
 .contacto__titulo {
   font-size: 2rem;
   margin: 1.5rem;
+  color: white;
+  text-align: center;
 }
+
+.contacto__lista{
+  margin: 5% 0 0 0;
+  width:45%;
+}
+@media screen and (max-width: 1023px) {
+  .contacto__lista{
+   width:80%
+    
+  }
+}
+
+.contacto__lista__banner p{
+  background-color: rgb(124, 110, 83);
+  display: inline;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem;
+  border: 0.15rem solid orchid;
+  border-radius: 0.75rem;
+  color: rgb(255, 255, 255);
+}
+
+
+.contacto__lista li{
+margin: 1.5rem;
+width: 100%;
+}
+
+.contacto__lista a{
+text-decoration: none;
+text-decoration: underline;
+  margin: 1.5rem;
+color: white;
+font-size: 1.3rem;
+}
+
+.contacto__lista a:hover{
+  filter: drop-shadow(0 0 1rem rgb(195, 70, 226))
+  drop-shadow(0 0 1rem rgb(195, 70, 226))
+  drop-shadow(0 0 1.25rem rgb(195, 70, 226))
+  drop-shadow(0 0 1.5rem rgb(195, 70, 226));
+}
+
+
+
+
+  
+.contacto__lista__redes{
+  padding:2rem 0 0 0;
+ 
+}
+.contacto__lista__redes img{
+  display: block;
+  margin:auto;
+}
+.contacto__lista__redes img:hover{
+  filter: drop-shadow(0 0 1rem rgb(195, 70, 226))
+  drop-shadow(0 0 1.25rem rgb(195, 70, 226))
+  drop-shadow(0 0 1.5rem rgb(195, 70, 226));
+}
+
+
+
+
+form {
+  /*background: rgba(63, 62, 62, 0.9);*/
+  display: table-cell;
+  width: 50%;
+  margin: 5% 1% 0 1%;
+  border: 1px solid black;
+  text-align: right;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1023px) {
+
+  form {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  form {
+    width:100%;
+    display: block;
+	}
+}
+
+
+form label,
+form legend {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  margin: 1vw auto 1vw 0.5vw;
+}
+
+.input-padron {
+  display: block;
+  margin: 1vw auto 1vw 0.5vw;
+  padding: 1rem 2rem;
+  width: 80%;
+}
+
+
+#contacto__boton {
+  display: block;
+  width: 120px;
+
+}
+
+
+.error__contenedor {
+  padding: 0rem .5rem .5rem .5rem;
+}
+
+.error__nombreapellido {
+  color: orchid;
+  font-size: 1rem;
+  text-align: left;
+  visibility: hidden;
+}
+
+.error__correo {
+  color: orchid;
+  font-size: 1rem;
+  text-align: left;
+  visibility: hidden;
+}
+
+.error__mensaje {
+  color: orchid;
+  font-size: 1rem;
+  text-align: left;
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+/*****libro****************
+
 
 
 .libro {
@@ -106,76 +264,4 @@
   background-color: rgb(221, 188, 211);
 }
 
-
-
-form {
-  /*background: rgba(63, 62, 62, 0.9);*/
-  display: table-cell;
-  width: 50%;
-  margin: 5% 1% 0 1%;
-  border: 1px solid black;
-  text-align: right;
-}
-
-@media screen and (min-width: 780px) and (max-width: 1023px) {
-
-  form {
-    width: 65%;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  form {
-    width:100%;
-    display: block;
-	}
-}
-
-
-form label,
-form legend {
-  display: block;
-  text-align: left;
-  font-size: 20px;
-  margin: 1vw auto 1vw 0.5vw;
-}
-
-.input-padron {
-  display: block;
-  margin: 1vw auto 1vw 0.5vw;
-  padding: 1rem 2rem;
-  width: 80%;
-}
-
-
-#contacto__boton {
-  display: block;
-  width: 120px;
-
-}
-
-
-.error__contenedor {
-  padding: 0rem .5rem .5rem .5rem;
-}
-
-.error__nombreapellido {
-  color: orchid;
-  font-size: 1rem;
-  text-align: left;
-  visibility: hidden;
-}
-
-.error__correo {
-  color: orchid;
-  font-size: 1rem;
-  text-align: left;
-  visibility: hidden;
-}
-
-.error__mensaje {
-  color: orchid;
-  font-size: 1rem;
-  text-align: left;
-  visibility: hidden;
-}
+*/
