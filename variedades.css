@@ -1,0 +1,94 @@
+
+.variedades {
+    width: 100%;
+}
+
+.variedades__contenedor {
+    width: 80%;
+    margin: 5% 10% 2% 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 780px) {
+	.variedades__contenedor {
+        width: 95%;
+        margin: 5% 2.5% 1rem 2.5%;
+	}
+}
+
+
+.variedades__contenedor__titulo {
+    color: white;
+    font-size:2rem;
+    
+    
+   
+}
+
+.variedades__contenedor__todos {
+    color: orchid;
+    font-size: 1rem;
+  
+}
+
+.variedades__contenedor__todos:hover {
+    color: rgb(255, 151, 252);
+    font-size: 1.1rem;
+  
+}
+
+
+.variedades ul {
+    /*background: rgba(63, 62, 62, 0.9);*/
+    background: rgba(218, 112, 214, 0.20);
+    border-top: 1px solid orchid;
+    border-bottom: 1px solid orchid;
+    display: flex;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    align-items: baseline;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    }
+    @media screen and (max-width: 1023px) {
+    .variedades ul  {
+        width: 95%;
+        margin: 0 2.5% 0 2.5%;
+    }
+}
+    
+.variedades ul li {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+	.variedades ul li {
+        width: 40%;
+	}
+}
+
+.variedades ul li p{
+    color: white;
+    margin: 0.25rem;
+
+}
+.variedades ul li a {
+   text-decoration: none;
+   text-decoration: underline; 
+   color: white;
+   margin: 0.25rem;
+}
+.variedades ul li a:hover {
+    color: orchid;
+    text-decoration: none;
+ }
+
+.variedades ul li img {
+    padding: 0.5rem;
+    width: 100%;
+}
