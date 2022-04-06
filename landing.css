@@ -27,8 +27,8 @@
 }
 
 .tienda__link a{
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color:rgb(252, 239, 127);
     font-size: 2rem;
 }
 
@@ -41,7 +41,7 @@ color: white;
 
 
 .mapa{
-    background: rgba(199, 102, 196, 0.2);
+    background-color:rgba(231, 119, 228, 0.2);
     display:flex;
     color:rgb(252, 239, 127);
     margin: 1.5rem 10%;

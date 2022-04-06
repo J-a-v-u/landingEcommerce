@@ -3,7 +3,7 @@
 }
 
 #contacto {
-  color: white;
+  color:rgb(252, 239, 127);
   display:flex;
 
   width:100%;
@@ -26,7 +26,7 @@
 .contacto__titulo {
   font-size: 2rem;
   margin: 1.5rem;
-  color: white;
+  color:rgb(252, 239, 127);
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ width: 100%;
 text-decoration: none;
 text-decoration: underline;
   margin: 1.5rem;
-color: white;
+  color:rgb(252, 239, 127);
 font-size: 1.3rem;
 }
 

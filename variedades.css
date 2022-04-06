@@ -20,7 +20,7 @@
 
 
 .variedades__contenedor__titulo {
-    color: white;
+    color:rgb(252, 239, 127);
     font-size:2rem;
     
     
@@ -73,14 +73,14 @@
 }
 
 .variedades ul li p{
-    color: white;
+    color:rgb(252, 239, 127);
     margin: 0.25rem;
 
 }
 .variedades ul li a {
    text-decoration: none;
    text-decoration: underline; 
-   color: white;
+   color:rgb(252, 239, 127);
    margin: 0.25rem;
 }
 .variedades ul li a:hover {
