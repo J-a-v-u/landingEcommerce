@@ -11,6 +11,44 @@
 }
 
 
+ 
+.texto__quienessomos {
+   
+    margin:2rem 0;
+    background-color:rgba(231, 119, 228, 0.2);
+    padding: 1.5rem;
+}
+
+.texto__quienessomos h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;    
+    font-weight: bold;
+    }
+
+.texto__quienessomos p{
+    text-align: justify ;
+    font-size: 1.25rem        
+}
+
+
+.texto__quienessomos ol {
+    list-style-type: decimal;
+}
+
+.texto__quienessomos li{
+    text-align: justify ;
+    font-size: 1.25rem;      
+    margin: 1rem 0; 
+}
+
+
+
+.texto__contenedor1 {
+  display:flex;
+  justify-content: center;
+  margin: 1rem 0;
+  flex-direction: column;
+}
 
 
 .texto__problema {
@@ -32,6 +70,16 @@
 }
 
 
+.texto__contenedor2 {
+    display:flex;
+    justify-content: center;    
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+
+  .texto__contenedor2 img{
+    width: 40%;
+  }
 
 
 
@@ -65,6 +113,15 @@
 }
 
 
+.texto__contenedor3 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    flex-direction: column;
+  }
+  
+
+
 
 
 .texto__conservacion {
@@ -91,6 +148,27 @@
 }
 
 
+
+.texto__contenedor4 {
+    display:flex;
+    justify-content: center;    
+    justify-content: space-around;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+
+.texto__contenedor4 img{
+width: 22%;
+}
+
+@media screen and (max-width: 780px) {
+	.texto__contenedor4 img{
+        width: 43%;
+        padding: 1rem 0;;
+        }
+        
+}
 
 
 
@@ -119,6 +197,14 @@
 
 
 
+.texto__contenedor5 {
+display:flex;
+  justify-content: center;
+  margin: 1rem 0;
+  flex-direction: column;
+    
+}
+
 
 
 .texto__historia {
@@ -139,4 +225,44 @@
     font-size: 1.25rem;      
     margin: 1rem 0; 
 }
+
+
+
+
+
+
+
+
+.texto__estacion {
+    
+    margin:2rem 0;
+    background-color:rgba(231, 119, 228, 0.2);
+    padding: 1.5rem;
+}
+
+.texto__estacion h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;    
+    font-weight: bold;
+    }
+
+.texto__estacion li{
+    text-align: justify ;
+    font-size: 1.25rem;      
+    margin: 1rem 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

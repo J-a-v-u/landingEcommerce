@@ -7,12 +7,13 @@
         <title>Plantas Del Cielo</title>
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="banner.css">
+        <link rel="stylesheet" href="../reset.css">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="../header.css">
+        <link rel="stylesheet" href="../landing.css">
+        <link rel="stylesheet" href="../contacto.css">
         <link rel="stylesheet" href="variedades.css">
-        <link rel="stylesheet" href="contacto.css">
+        <link rel="stylesheet" href="banner.css">
     </head>
     <body>
         
@@ -20,7 +21,7 @@
            <div class="container">
                 <div class="header__contenedor">
                     <a href="https://j-a-v-u.github.io/landingEcommerce/">
-                        <img class="header__logo" src="images/logo.jpg" alt="logo">
+                        <img class="header__logo" src="../images/logo.jpg" alt="logo">
                         <p class="header__logo__nombre">Plantas Del Cielo</p>
                     </a>
                 </div>
@@ -36,7 +37,9 @@
             
 
                     <div class="login">
-                        <button class="header__btn" id="login">Login</button>
+                        <form action="/login/login.html">
+                            <button class="header__btn" id="login" value="ir a log in">Login</button>
+                        </form>
                     </div>
                 </section>  
             </div>
@@ -252,13 +255,13 @@
                             </li>
                                
                                 <li>
-                                    <a href="quienessomos.html">Quienes somos.</a>
+                                    <a href="../quienessomos/quienessomos.html">Quienes somos.</a>
                                 </li>
                                 <li>
-                                    <a href="quienessomos.html#politica">Nuestra política de conservación.</a>
+                                    <a href="../quienessomos/quienessomos.html#politica">Nuestra política de conservación.</a>
                                 </li>
                                  <li>
-                                    <a href="quienessomos.html#historia">Nuestra historia.</a>
+                                    <a href="../quienessomos/quienessomos.html#historia">Nuestra historia.</a>
                                 </li>
                                 <li>
                                     <a href="#">Donaciones.</a>
@@ -266,8 +269,8 @@
                                
                                 <li class="contacto__lista__redes">
                                     <p>Redes Sociales:</p> 
-                                    <a href="https://www.facebook.com/Plantas-del-cielo-100854398071946/"><img src="images/fb.png" alt=""></a>
-                                    <a href="https://www.instagram.com/plantasdelcielo/?hl=es"><img src="images/insta.png" alt=""></a>
+                                    <a href="https://www.facebook.com/Plantas-del-cielo-100854398071946/"  target="_blank" rel="noopener noreferrer"><img src="../images/fb.png" alt=""></a>
+                                    <a href="https://www.instagram.com/plantasdelcielo/?hl=es"  target="_blank" rel="noopener noreferrer"><img src="../images/insta.png" alt=""></a>
                             
                                 </li>
                            </ul>
@@ -312,6 +315,6 @@
 
 
 
-            <script src="scripts.js"></script>
+            <script src="../scripts.js"></script>
     </body>
 </html>

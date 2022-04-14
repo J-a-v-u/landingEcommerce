@@ -1,13 +1,13 @@
 
 .contenedor__tienda {
    display: flex;
-    margin: 5rem 10%;
+    margin: 8.5rem 10% 15rem 10%;
     width: 80%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     
 }
-
+/*
 .orchid {
     background-color: grey;
     border-radius:50%;
@@ -19,12 +19,25 @@
     width:100%;
     border-radius:50%;
 }
+*/
 
 .tienda__link {
     
-    width: 55%;
-
+    width: 65%;
+text-align: right;
 }
+
+
+@media screen and (max-width: 780px) {
+    .contenedor__tienda {
+        justify-content: center;
+    }
+    .tienda__link {
+        text-align: center;
+    }
+}
+
+
 
 .tienda__link a{
     text-decoration: none;
