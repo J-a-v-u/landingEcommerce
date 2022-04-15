@@ -1,0 +1,43 @@
+  
+.contenedor__producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 4rem 10%;
+    flex-wrap: wrap;
+}
+
+.imagen-producto {
+    width: 40%;
+}
+.imagen-producto img{
+    width: 100%;
+}
+
+.textos-producto {
+    color:rgb(252, 239, 127);
+    font-size: 2rem;
+    padding: 1rem;
+    width: 35%;
+}
+
+.textos-producto p{
+    font-size: 1rem;
+   
+    margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 780px) {
+    .contenedor__producto{
+        width: 100%;
+        margin: 4rem 0;
+    }
+    .imagen-producto {
+        width: 95%;
+    }
+    .textos-producto {
+        width: 90%;
+    }
+}

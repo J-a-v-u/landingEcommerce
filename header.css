@@ -12,11 +12,7 @@ body{
 	padding: 0.5rem 0 0.5rem 0;
 }
 
-@media screen and (max-width: 1023px) {
-	.header{
-	margin: 0 2.5%;
-	}
-}
+
 
 @media screen and (max-width: 780px) {
 	.header{
@@ -265,8 +261,7 @@ body{
     }
 }
 
-
-.header__busqueda__descripcion {
+.header__busqueda__descripcion__landing {
 	/*background-color: rgba(212, 209, 209, 0.3);*/
 	color: orchid;
 	font-size: 3.5rem;
@@ -275,12 +270,26 @@ body{
 	border-radius: 1rem;
 }
 
+.header__busqueda__descripcion {
+	/*background-color: rgba(212, 209, 209, 0.3);*/
+	color: orchid;
+	font-size: 3.5rem;
+	margin: 5rem 10% 4rem 10%;
+	text-align: right;
+	border-radius: 1rem;
+}
+
 
 @media screen and (max-width: 780px) {
 
-	.header__busqueda__descripcion {
+	.header__busqueda__descripcion__landing {
 		font-size: 2rem;
 		margin: 3.5rem 10% 4rem 30%;
+	
+	}
+	.header__busqueda__descripcion {
+		font-size: 2rem;
+		margin: 3.5rem 10% 4rem 10%;
 	
 	}
 
