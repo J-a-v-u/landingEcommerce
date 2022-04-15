@@ -52,6 +52,19 @@ text-align: right;
     drop-shadow(0 0 4rem rgb(195, 70, 226));
 }
 
+#contenedor-ir-tienda{
+    padding-left: 2rem;
+}
+#ir-a-tienda {
+    border-radius: 50%;
+    height: 5rem;
+    border: 4px solid orchid;
+}
+
+
+
+
+
 
 .mapa{
     background-color:rgba(231, 119, 228, 0.2);
