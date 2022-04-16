@@ -8,9 +8,46 @@ body{
 	background: linear-gradient(to bottom, orchid, black);
 	background: -prefix-linear-gradient(top, orchid, black);
 	
+	
+}
+
+.header-landing {
+	background: linear-gradient(-45deg,rgb(160, 81, 159), #5c0057, #240114, black);
+	background-size: 400% 400%;
+	animation: gradient-header-landing 15s ease infinite;
 	width:100%;
 	padding: 0.5rem 0 0.5rem 0;
+	border-bottom: #333 solid 0.5rem;
 }
+
+
+@keyframes gradient-header-landing {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,7 +92,7 @@ body{
 
 }
 .header__logo__nombre {
-	background: rgba(218, 112, 214, 0.30);
+/*	background: rgba(218, 112, 214, 0.30);*/
 	color: rgb(235, 235, 235); 
 	font-size: 1rem;
 	text-align: center;
@@ -105,8 +142,6 @@ body{
 	border-radius: 5px 0 0 5px;
 	box-shadow: 0 2px 0 #000;
 	color: #888;
-	
-
 	font-family: 'Cabin', helvetica, arial, sans-serif;
 	font-size: 0.9rem;
 	font-weight: 400;
@@ -114,7 +149,6 @@ body{
 	margin: 0;
 	padding: 0 0.85rem;
 	text-shadow: 0 -1px 0 #000;
-	
 }
 
 .ie .busqueda input {
@@ -290,6 +324,7 @@ body{
 	.header__busqueda__descripcion {
 		font-size: 2rem;
 		margin: 3.5rem 10% 4rem 10%;
+		text-align: center;
 	
 	}
 

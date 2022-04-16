@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Plantas Del Cielo</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../reset.css">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="../header.css">
+        <link rel="stylesheet" href="../landing.css">
+        <link rel="stylesheet" href="../contacto.css">
+        <link rel="stylesheet" href="manege.css">
+        
+    </head>
+    <body>
+        
+        <section class="header">
+           <div class="container">
+                <div class="header__contenedor">
+                    <a href="https://j-a-v-u.github.io/landingEcommerce/">
+                        <img class="header__logo" src="../images/logo.jpg" alt="logo">
+                        <p class="header__logo__nombre">Plantas Del Cielo</p>
+                    </a>
+                </div>
+               
+
+                <section class="busquedaYlogin">
+                    <div class="busqueda">
+                        <form action="" method="">		    
+                            <input type="search" placeholder="Search...">		    	
+                            <button class="header__btn">Search</button>
+                        </form>
+                    </div>
+            
+
+                    <div class="login">
+                        <form action="/login/login.html">
+                            <button class="header__btn" id="login" value="ir a log in">Login</button>
+                        </form>
+                    </div>
+                </section>  
+            </div>
+        </section>
+
+
+
+
+
+        <div class="manege__contenedor__titulo">  
+            <p>Agregar nuevo producto</p>
+        </div> 
+
+        
+
+        <div class="manege__contenedor">
+
+                <section class="manege__archivos">
+                    <div class="drag-drop-box" id="ddb"></div>  
+                     
+                    <button class="header__btn" id="btn-buscar-archivos">Buscar en su PC</button>            
+                </section>
+
+                <form class="manege__info">
+
+                    <h2 class="manege__info__titulo">Nombre del proucto</h2>
+                    <label for="nombreproducto">Nombre del proucto</label>
+                    <input type="text" id="nombreproducto" class="input-padron" required>
+                    <div class="error__contenedor">
+                        <p class="error__nombreaproducto">Mensaje de error</p>
+                    </div>
+
+
+                    <h2 class="manege__info__precio">Precio del proucto</h2>
+                    <label for="precioproducto">Precio del proucto</label>
+                    <input type="text" id="precioproducto" class="input-padron" required>
+                    <div class="error__contenedor">
+                        <p class="error__precioproducto">Mensaje de error</p>
+                    </div>
+
+
+                    <label for="descripcion">Descripción del producto</label>
+                    <textarea cols="70" rows="10" id="descripcion" class="input-padron" required></textarea>
+                    <div class="error__contenedor">
+                        <p class="error__mensaje">Mensaje de error</p>
+                    </div>
+
+                    <input type="submit" value="Enviar formulario" class="header__btn"  id="contacto__boton" onclick="multicomprobacion()">
+
+                </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script src="../scripts.js"></script>
+    </body>
+</html>

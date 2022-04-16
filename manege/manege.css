@@ -1,0 +1,39 @@
+
+
+.manege__contenedor__titulo {
+    text-align: center;
+    color: orchid;
+    font-size: 3.5rem;
+    margin: 4rem 0;
+
+}
+
+
+.manege__contenedor {
+    display: flex;
+    color: rgb(171, 209, 82);
+    font-size: 2rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.manege__archivos {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.drag-drop-box {
+    background-color: grey;
+    width: 15vw;
+    height: 15vw;
+}
+
+#btn-buscar-archivos {
+    width: auto;
+}
+
+.manege__contenedor section, form {
+    width: 50%;
+}

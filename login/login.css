@@ -1,3 +1,10 @@
+.login__contenedor__titulo {
+    text-align: center;
+    color: orchid;
+    font-size: 3.5rem;
+    margin: 4rem 0;
+}
+
 .login__login {
     width: 80%;
     margin: 5rem 10%;
@@ -9,6 +16,8 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem 0;
+    background: linear-gradient(to right, black, rgb(110, 56, 109), black);
+	background: -prefix-linear-gradient(right, black, rgb(110, 56, 109), black);
 }
 
 #login__login p{
