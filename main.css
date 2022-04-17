@@ -8,5 +8,8 @@
 
 
 body{
-    background-color: black;
+    background: #000000;  /* fallback for old browsers */
+background: linear-gradient(45deg, #2b152b, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+
+
 }
