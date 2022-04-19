@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="../contacto.css">
         <link rel="stylesheet" href="variedades.css">
         <link rel="stylesheet" href="banner.css">
+        <link rel="stylesheet" href="../popup.css">
     </head>
     <body>
         
@@ -57,7 +58,7 @@
 
                 <p>Plantas con un 25% de descuento </p>
                
-                <button class="header__btn" id="btn__ofertas">Ofertas!</button>
+                <button  class="header__btn" id="btn__ofertas">Ofertas!</button>
             </div>
 
 
@@ -74,32 +75,64 @@
 
                 <ul class="lista">
                     <li>
-                        <img src="images/bromelias/1.jpg" alt="">
+                        <img class="imagen" src="images/bromelias/1.jpg" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="../articulo/articulo.html">Detalles</a>
+                        <a id="bromelia_1" class="links-producto" href="#popup">Detalles</a>
                     </li>
                     
                     <li>
-                        <img src="images/bromelias/2.jpg" alt="">
+                        <img class="imagen" src="images/bromelias/2.jpg" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a id="bromelia_2" class="links-producto"  href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="images/bromelias/3.jpg" alt="">
+                        <img class="imagen" src="images/bromelias/3.jpg" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" id="bromelia_3" href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="images/bromelias/4.jpg" alt="">
+                        <img class="imagen" src="images/bromelias/4.jpg" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" id="bromelia_4" href="#popup">Detalles</a>
                     </li>
                 </ul>
             </section>
+<!----------------pop-up----------------->
+
+
+
+
+
+<section id="popup" class="overlay">
+
+    <div class="container__cerrar">
+        <a onclick="deleteImg()" id="cerrar" href="#">&times;</a>  <!--***boton cerrar***  -->  
+    </div>
+
+
+    <div class="imagen-producto">
+        
+    </div>
+
+    <div class="textos-producto" id="textos-producto">
+        <h2 class="nombre-producto" id="nombre-producto"> Nombre del producto </h2>
+        <p class="precio-producto" id="precio-producto"> $5000 </p> 
+        <p class="nota-producto" id="nota-producto"> Descripción del producto. Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam </p>
+        
+    </div>
+</section>
+
+
+
+
+
+
+<!----------------------------------------->
+
 
 
             <section class="cactus">
@@ -109,29 +142,29 @@
                 </div>
                 <ul class="lista">
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                 </ul>
             </section>
@@ -143,29 +176,29 @@
                 </div>
                 <ul class="lista">
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                 </ul>
             </section>
@@ -177,29 +210,29 @@
                 </div>
                 <ul class="lista">
                     <li>
-                        <img src="images/orquideas/3.jpg" alt="">
+                        <img class="imagen"  src="images/orquideas/3.jpg" alt="">
                         <p>producto xyz</p>
-                        <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <p>$5000</p> 
+                        <a class="link-popup" href="#popup">Detalles</a>
                     </li>
                     
                     <li>
-                        <img src="images/orquideas/4.jpg" alt="">
+                        <img class="imagen"  src="images/orquideas/4.jpg" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="images/orquideas/5.jpg" alt="">
+                        <img class="imagen"  src="images/orquideas/5.jpg" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="images/orquideas/6.jpg" alt="">
+                        <img class="imagen"  src="images/orquideas/6.jpg" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                 </ul>
             </section>
@@ -211,29 +244,29 @@
                 </div>
                 <ul class="lista">
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                     <li>
-                        <img src="" alt="">
+                        <img class="imagen"  src="" alt="">
                         <p>producto xyz</p>
                         <p>$5000</p>
-                        <a href="#">Detalles</a>
+                        <a class="links-producto" href="#popup">Detalles</a>
                     </li>
                 </ul>
             </section>
@@ -316,5 +349,6 @@
 
 
             <script src="../scripts.js"></script>
+            <script src="../popupscripts.js"></script>
     </body>
 </html>

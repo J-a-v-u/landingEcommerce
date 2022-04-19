@@ -41,18 +41,37 @@
 
 
 .variedades ul {
-    /*background: rgba(63, 62, 62, 0.9);*/
+    /*background: rgba(63, 62, 62, 0.9);
     background: rgba(218, 112, 214, 0.20);
     border-top: 1px solid orchid;
-    border-bottom: 1px solid orchid;
+    border-bottom: 1px solid orchid;*/
     display: flex;
     width: 80%;
     margin: 0 10% 0 10%;
     align-items: baseline;
     justify-content: space-around;    
     flex-wrap: wrap;
-    }
-    @media screen and (max-width: 1023px) {
+    padding: 1rem 0;
+
+
+    background-color: rgba(104, 65, 148, 0.21);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    backdrop-filter:
+    blur(15px);
+    
+    box-shadow:
+    inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
+    inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
+    0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+
+    
+}
+
+
+@media screen and (max-width: 1023px) {
     .variedades ul  {
         width: 95%;
         margin: 0 2.5% 0 2.5%;

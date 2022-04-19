@@ -9,15 +9,36 @@
     width: 80%;
     margin: 5rem 10%;
     text-align: center;
+   
+    
 }
 #login__login {
-    background-color:rgba(231, 119, 228, 0.2);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3rem 0;
+
+    /*
+    background-color:rgba(231, 119, 228, 0.2);
     background: linear-gradient(to right, black, rgb(110, 56, 109), black);
 	background: -prefix-linear-gradient(right, black, rgb(110, 56, 109), black);
+*/
+
+
+
+    background-color: rgba(33, 4, 39, 0.41);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    backdrop-filter:
+    blur(15px)
+    saturate(1000%);
+    box-shadow:
+    inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
+    inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
+    0 0 10px 1px rgba(0, 0, 0, 0.25);
+
 }
 
 #login__login p{
