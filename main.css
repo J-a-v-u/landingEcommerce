@@ -10,6 +10,61 @@
 body{
     background: #000000;  /* fallback for old browsers */
 	background: linear-gradient(45deg, #2b152b, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-
-
 }
+
+
+.btn {
+	background: #222;
+	background: -webkit-linear-gradient(#333, #222);
+	background: -moz-linear-gradient(#333, #222);
+	background: -o-linear-gradient(#333, #222);
+	background: -ms-linear-gradient(#333, #222);
+	background: linear-gradient(#333, #222);
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	box-sizing: content-box;
+	border: 1px solid #444;
+	border-left-color: #000;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #000;
+	color:rgb(252, 239, 127);
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	margin: 2px 0;
+	padding: 0;
+	text-shadow: 0 -1px 0 #000;
+	width: 5rem;
+}	
+
+.btn:hover,
+.btn:focus {
+	background: #292929;
+	background: -webkit-linear-gradient(#393939, #292929);	
+	background: -moz-linear-gradient(#393939, #292929);	
+	background: -o-linear-gradient(#393939, #292929);	
+	background: -ms-linear-gradient(#393939, #292929);	
+	background: linear-gradient(#393939, #292929);
+	color: orchid;
+	outline: none;
+}
+
+.btn:active {
+	background: #292929;
+	background: -webkit-linear-gradient(#393939, #292929);
+	background: -moz-linear-gradient(#393939, #292929);
+	background: -o-linear-gradient(#393939, #292929);
+	background: -ms-linear-gradient(#393939, #292929);
+	background: linear-gradient(#393939, #292929);
+	box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+	top: 1px;
+}
+
+
+
+
+

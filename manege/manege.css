@@ -33,8 +33,9 @@
     padding: 5vw;
 }
 
-#btn-buscar-archivos {
+#btn-buscar-archivos, #contacto__boton {
     width: auto;
+    padding: 0 0.5rem;
 }
 
 .manege__contenedor section{
