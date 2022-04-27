@@ -107,7 +107,17 @@
     text-decoration: none;
  }
 
-.variedades ul li img {
+.imagen {
     padding: 0.5rem;
     width: 100%;
+}
+.contenedor__ofertas{
+    position: relative;
+    width: 100%;
+}
+.deal {
+    position: absolute;
+    width: 50%;
+    bottom: -10%;
+    right:-15%;
 }

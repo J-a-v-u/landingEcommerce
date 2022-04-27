@@ -94,7 +94,7 @@ body{
 .header__logo__nombre {
 /*	background: rgba(218, 112, 214, 0.30);*/
 	color: rgb(235, 235, 235); 
-	font-size: 1rem;
+	font-size: 1.25rem;
 	text-align: center;
 	width:90%;
 	font-family: 'Lobster', cursive;
