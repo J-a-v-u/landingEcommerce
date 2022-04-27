@@ -57,13 +57,25 @@
 
         <section class="login__login">
             <div class="busqueda" id="login__login">
-                <p>Usuario:</p>
-                <input  type="text" placeholder="Usuario"></imput>
-                <p>Contraseña:</p> 
-                <input type="text" placeholder="contraseña"></imput>
+
+                <p class="login__login__titulos">Usuario:</p>
+                <input id="user"  type="text" placeholder="Usuario"></imput>
+                <div class="error__contenedor">
+                    <p class="error__user">Por favor, escriba su Usuario.</p>
+                </div>
+
+                <p class="login__login__titulos">Contraseña:</p> 
+                <input id="password" type="password" placeholder="contraseña" onchange="habilitar(this)"></imput>
+                <div class="error__contenedor">
+                    <p class="error__password">Mensaje de error</p>
+                </div>
+                
+                
                 <form action="../manege/manege.html">
-                <button href="../manege/manege.html" class="btn">Log in</button>
+                <button href="../manege/manege.html" class="btn" id="login-btn">Log in</button>
                 </form>
+                
+            
             </div>
         </section>
 
@@ -156,5 +168,7 @@
 
 
             <script src="../scripts.js"></script>
+            <script src="login.js"></script>
+            <script src="../service/client-service.js"></script>
     </body>
 </html>

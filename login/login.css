@@ -41,11 +41,27 @@
 
 }
 
-#login__login p{
+.login__login__titulos {
     color:rgb(252, 239, 127);
    margin: 1.5rem 0 0 0;
 }
 #login__login input{
  display: block;
  margin: 1rem 0;
+ }
+
+ .error__password, .error__user {
+    color: orchid;
+    font-size: 1rem;
+    text-align: left;
+    visibility: hidden;
+  }
+
+
+#password:disabled {
+    background: rgb(86, 74, 86);
+}
+
+ #login-btn:disabled {
+     background: rgb(86, 74, 86);
  }

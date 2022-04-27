@@ -150,8 +150,7 @@ font-size: 1.3rem;
 
 
 
-form label,
-form legend {
+.fondo form label, .fondo form legend {
   display: block;
   text-align: left;
   font-size: 20px;

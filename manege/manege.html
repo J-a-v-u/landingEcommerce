@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="../main.css">
         <link rel="stylesheet" href="../header.css">
         <link rel="stylesheet" href="../landing.css">
-        <link rel="stylesheet" href="../contacto.css">
+        
         <link rel="stylesheet" href="manege.css">
         
     </head>
@@ -59,41 +59,56 @@
         <div class="manege__contenedor">
 
                 <section class="manege__archivos">
-                    <div class="drag-drop-box" id="ddb">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32 28.4444V3.55556C32 1.6 30.4 0 28.4444 0H3.55556C1.6 0 0 1.6 0 3.55556V28.4444C0 30.4 1.6 32 3.55556 32H28.4444C30.4 32 32 30.4 32 28.4444ZM9.77778 18.6667L14.2222 24.0178L20.4444 16L28.4444 26.6667H3.55556L9.77778 18.6667Z" fill="#C8C8C8"/>
-                        </svg>
-                    </div>  
-                    <button class="btn" id="btn-buscar-archivos">Buscar en su PC</button>            
+                        <div class="drag-drop-box" id="ddb">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32 28.4444V3.55556C32 1.6 30.4 0 28.4444 0H3.55556C1.6 0 0 1.6 0 3.55556V28.4444C0 30.4 1.6 32 3.55556 32H28.4444C30.4 32 32 30.4 32 28.4444ZM9.77778 18.6667L14.2222 24.0178L20.4444 16L28.4444 26.6667H3.55556L9.77778 18.6667Z" fill="#C8C8C8"/>
+                            </svg>
+                            <p class="manege__archivos__titulos">Arrastre una imagen desde su PC</p>
+                        </div> 
+
+                    <p id="o">o</p>
+
+                    <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank">
+                    <p class="manege__archivos__titulos" id="titulo__pc">Eleja una imagen desde su PC:</p>
+                    <label  class="btn" id="btn-buscar-archivos">
+                        <input type="file" id="inputFile" accept="image/*"/>
+                        Elegir
+                    </label>
+                    
+
+                    </form>
+
+                              
+                </section >
+                <section class="info">
+                    <form class="manege__info">
+
+                        
+                        <label for="nombreproducto">Nombre del producto</label>
+                        <input type="text" id="nombreproducto" class="manege__input" required>
+                        <div class="error__contenedor">
+                            <p class="error__nombreaproducto">Mensaje de error</p>
+                        </div>
+
+
+                        
+                        <label for="precioproducto">Precio del producto</label>
+                        <input type="text" id="precioproducto" class="manege__input" required>
+                        <div class="error__contenedor">
+                            <p class="error__precioproducto">Mensaje de error</p>
+                        </div>
+
+
+                        <label for="descripcion">Descripción del producto</label>
+                        <textarea cols="70" rows="10" id="descripcion" class="manege__input" required></textarea>
+                        <div class="error__contenedor">
+                            <p class="error__descripcion">Mensaje de error</p>
+                        </div>
+
+                        <input type="submit" value="Subir producto" class="btn"  id="btn-enviar" onclick="multicomprobacion()">
+
+                    </form>
                 </section>
-
-                <form class="manege__info">
-
-                    
-                    <label for="nombreproducto">Nombre del producto</label>
-                    <input type="text" id="nombreproducto" class="manege__input" required>
-                    <div class="error__contenedor">
-                        <p class="error__nombreaproducto">Mensaje de error</p>
-                    </div>
-
-
-                    
-                    <label for="precioproducto">Precio del producto</label>
-                    <input type="text" id="precioproducto" class="manege__input" required>
-                    <div class="error__contenedor">
-                        <p class="error__precioproducto">Mensaje de error</p>
-                    </div>
-
-
-                    <label for="descripcion">Descripción del producto</label>
-                    <textarea cols="70" rows="10" id="descripcion" class="manege__input" required></textarea>
-                    <div class="error__contenedor">
-                        <p class="error__descripcion">Mensaje de error</p>
-                    </div>
-
-                    <input type="submit" value="Subir producto" class="btn"  id="contacto__boton" onclick="multicomprobacion()">
-
-                </form>
 
         </div>
 
