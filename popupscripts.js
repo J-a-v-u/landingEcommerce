@@ -145,10 +145,20 @@ function deleteText() {
 }
 
 
+/***************cerrar***************/
 
 
+function cerrar() {
+	deleteImg();
+	let popup = document.querySelector(".overlay");
+	popup.style.visibility = "hidden";
+}
 
-
+function mostrarpopup() {
+	deleteImg();
+	let popup = document.querySelector(".overlay");
+	popup.style.visibility = "visible";
+}
 
 
 
