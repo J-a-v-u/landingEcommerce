@@ -36,11 +36,24 @@
     justify-content: space-around;
     margin-bottom: 1rem;
     align-items: center;
+    height: 23rem;
+}
+
+.drag-drop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23rem;
 }
 
 .drag-drop-box {
     background-color: grey;
     padding: 5vw;
+}
+
+#drag-drop__archivo {
+    font-size: 1.5rem;
+    margin: 1rem 0;
 }
 
 #btn-enviar {
@@ -69,17 +82,30 @@
     border: 0;
 }
 
-.manege__contenedor section {
-    width: 50%;
-}
-
 .manege__archivos {
+    width: 65%;
+}
+.manege__elegir {
+    display:flex;
+    flex-direction: column;
+    height: 23rem;
+    justify-content: flex-end;
+}
+
+
+
+#elegir__archivo {
+    font-size: 1.5rem;
+    margin: 4rem 0 1rem 0;
+}
+
+
+.info {
     width: 50%;
 }
 
-.manege__archivos form {
-    width: 50%;
-}
+
+
 .manege__archivos label {
     margin-top: 2rem;
     font-size: 2rem;

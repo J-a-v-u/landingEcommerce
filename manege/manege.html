@@ -60,25 +60,29 @@
         <div class="manege__contenedor">
 
                 <section class="manege__archivos">
-                        <div class="drag-drop-box" id="ddb">
+                    <div class="drag-drop-container">
+                        <div class="drag-drop-box" id="ddb" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M32 28.4444V3.55556C32 1.6 30.4 0 28.4444 0H3.55556C1.6 0 0 1.6 0 3.55556V28.4444C0 30.4 1.6 32 3.55556 32H28.4444C30.4 32 32 30.4 32 28.4444ZM9.77778 18.6667L14.2222 24.0178L20.4444 16L28.4444 26.6667H3.55556L9.77778 18.6667Z" fill="#C8C8C8"/>
                             </svg>
                             <p class="manege__archivos__titulos">Arrastre una imagen desde su PC</p>
                         </div> 
+                        <p id="drag-drop__archivo"> </p>
+                    </div>
 
                     <p id="o">o</p>
 
-                    <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank">
-                    <p class="manege__archivos__titulos" id="titulo__pc">Eleja una imagen desde su PC:</p>
-                    <label  class="btn" id="btn-buscar-archivos">
-                        <input type="file" id="inputFile" accept="image/*"/>
-                        Elegir
-                    </label>
-                    
-
-                    </form>
-
+                    <div class="manege__elegir">
+                        <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank" id="boton-elegir">
+                        <p class="manege__archivos__titulos" id="titulo__pc">Eleja una imagen desde su PC:</p>
+                        <label  class="btn" id="btn-buscar-archivos">
+                            <input type="file" id="inputFile" accept="image/*"/>
+                            Elegir
+                        </label>  
+                        </form>
+                        
+                        <p id="elegir__archivo"> </p>
+                    </div>
                               
                 </section >
                 <section class="info">
@@ -135,5 +139,7 @@
 
 
             <script src="../scripts.js"></script>
+            <script src="dragdrop.js"></script>
+            <script src="elegirarchivo.js"></script>
     </body>
 </html>
