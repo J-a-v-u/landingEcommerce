@@ -1,21 +1,20 @@
-
-body{
+body {
 	font-family: Raleway, "Helvetica Ne";
 }
 
 
-.header{
+.header {
 	background: linear-gradient(to bottom, orchid, black);
 	background: -prefix-linear-gradient(top, orchid, black);
 	padding: 0 0 1rem 0;
-	
+
 }
 
 .header-landing {
-	background: linear-gradient(-45deg,rgb(160, 81, 159), #5c0057, #240114, black);
+	background: linear-gradient(-45deg, rgb(160, 81, 159), #5c0057, #240114, black);
 	background-size: 400% 400%;
 	animation: gradient-header-landing 15s ease infinite;
-	width:100%;
+	width: 100%;
 	padding: 0.5rem 0 0.5rem 0;
 	border-bottom: #333 solid 0.5rem;
 }
@@ -25,85 +24,67 @@ body{
 	0% {
 		background-position: 0% 50%;
 	}
+
 	50% {
 		background-position: 100% 50%;
 	}
+
 	100% {
 		background-position: 0% 50%;
 	}
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 780px) {
-	.header{
+	.header {
 		justify-content: flex-start;
 	}
 }
 
-.containerPrincipal{
-	
+.containerPrincipal {
+
 	margin: 0 10% 1rem 20%;
 	align-items: center;
 	display: flex;
-	
+
 	justify-content: space-between;
-	
+
 }
 
-.container{
-	
+.container {
+
 	margin: 0 10% 1rem 10%;
 	align-items: center;
 	display: flex;
-	
+
 	justify-content: space-between;
-	
+
 }
 
 /***************logo*****************/
 
-.header__contenedor{
+.header__contenedor {
 	display: flex;
-	width:15%;
+	width: 15%;
 	flex-direction: column;
+	z-index: 11;
 }
 
 .header__logo {
 	border: 0.25rem solid orchid;
 	border-radius: 50%;
-	width:90%;
+	width: 90%;
 
 }
+
 .header__logo__nombre {
-/*	background: rgba(218, 112, 214, 0.30);*/
-	color: rgb(235, 235, 235); 
+	/*	background: rgba(218, 112, 214, 0.30);*/
+	color: rgb(235, 235, 235);
 	font-size: 1.25rem;
 	text-align: center;
-	width:90%;
+	width: 90%;
 	font-family: 'Lobster', cursive;
 }
-
-
-
-
-
 
 /***********busqueda************/
 
@@ -112,9 +93,10 @@ body{
 	width: 65%;
 	justify-content: space-between;
 }
+
 @media screen and (max-width: 780px) {
 	.busquedaYlogin {
-	font-size: 10px;
+		font-size: 10px;
 	}
 }
 
@@ -122,7 +104,7 @@ body{
 	.busquedaYlogin {
 		width: 100%;
 		flex-wrap: wrap;
-		justify-content: flex-end;		
+		justify-content: flex-end;
 	}
 }
 
@@ -134,11 +116,11 @@ body{
 
 .busqueda input {
 	background: #222;
-	background: -webkit-linear-gradient(#333, #222);	
-	background: -moz-linear-gradient(#333, #222);	
-	background: -o-linear-gradient(#333, #222);	
-	background: -ms-linear-gradient(#333, #222);	
-	background: linear-gradient(#333, #222);	
+	background: -webkit-linear-gradient(#333, #222);
+	background: -moz-linear-gradient(#333, #222);
+	background: -o-linear-gradient(#333, #222);
+	background: -ms-linear-gradient(#333, #222);
+	background: linear-gradient(#333, #222);
 	border: 1px solid #444;
 	border-radius: 5px 0 0 5px;
 	box-shadow: 0 2px 0 #000;
@@ -157,11 +139,11 @@ body{
 }
 
 .busqueda::-webkit-input-placeholder {
-   color: #888;
+	color: #888;
 }
 
 .busqueda input:-moz-placeholder {
-   color: #888;
+	color: #888;
 }
 
 .busqueda input:focus {
@@ -177,17 +159,17 @@ body{
 	background: -ms-linear-gradient(#333933, #222922);
 	background: linear-gradient(#333933, #222922);
 	border-color: rgb(148, 75, 145);
-	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
-	color:rgb(252, 239, 127);
+	box-shadow: 0 0 5px rgba(0, 255, 0, .2), inset 0 0 5px rgba(0, 255, 0, .1), 0 2px 0 #000;
+	color: rgb(252, 239, 127);
 	outline: none;
 }
 
-.busqueda input:focus::-webkit-input-placeholder { 
-	color:rgb(252, 239, 127);
+.busqueda input:focus::-webkit-input-placeholder {
+	color: rgb(252, 239, 127);
 }
 
 .busqueda input:focus:-moz-placeholder {
-	color:rgb(252, 239, 127);
+	color: rgb(252, 239, 127);
 }
 
 .header__btn {
@@ -206,7 +188,7 @@ body{
 	border-left-color: #000;
 	border-radius: 0 5px 5px 0;
 	box-shadow: 0 2px 0 #000;
-	color:rgb(252, 239, 127);
+	color: rgb(252, 239, 127);
 	font-family: 'Cabin', helvetica, arial, sans-serif;
 	font-size: 0.9rem;
 	font-weight: 400;
@@ -216,15 +198,15 @@ body{
 	padding: 0;
 	text-shadow: 0 -1px 0 #000;
 	width: 5rem;
-}	
+}
 
 .header__btn:hover,
 .header__btn:focus {
 	background: #292929;
-	background: -webkit-linear-gradient(#393939, #292929);	
-	background: -moz-linear-gradient(#393939, #292929);	
-	background: -o-linear-gradient(#393939, #292929);	
-	background: -ms-linear-gradient(#393939, #292929);	
+	background: -webkit-linear-gradient(#393939, #292929);
+	background: -moz-linear-gradient(#393939, #292929);
+	background: -o-linear-gradient(#393939, #292929);
+	background: -ms-linear-gradient(#393939, #292929);
 	background: linear-gradient(#393939, #292929);
 	color: orchid;
 	outline: none;
@@ -242,58 +224,63 @@ body{
 }
 
 @-webkit-keyframes glow {
-    0% {
+	0% {
 		border-color: rgb(187, 96, 184);
-		box-shadow: 0 0 5px rgba(218,112,214,.2), inset 0 0 5px rgba(218,112,214,.1), 0 2px 0 #000;
-    }	
-    100% {
+		box-shadow: 0 0 5px rgba(218, 112, 214, .2), inset 0 0 5px rgba(218, 112, 214, .1), 0 2px 0 #000;
+	}
+
+	100% {
 		border-color: rgb(250, 130, 246);
-		box-shadow: 0 0 20px rgba(218,112,214,.6), inset 0 0 10px rgba(218,112,214,.4), 0 2px 0 #000;
-    }
+		box-shadow: 0 0 20px rgba(218, 112, 214, .6), inset 0 0 10px rgba(218, 112, 214, .4), 0 2px 0 #000;
+	}
 }
 
 @-moz-keyframes glow {
-    0% {
+	0% {
 		border-color: rgb(187, 96, 184);
-		box-shadow: 0 0 5px rgba(218,112,214,.2), inset 0 0 5px rgba(218,112,214,.1), 0 2px 0 #000;
-    }	
-    100% {
+		box-shadow: 0 0 5px rgba(218, 112, 214, .2), inset 0 0 5px rgba(218, 112, 214, .1), 0 2px 0 #000;
+	}
+
+	100% {
 		border-color: rgb(250, 130, 246);
-		box-shadow: 0 0 20px rgba(218,112,214,.6), inset 0 0 10px rgba(218,112,214,.4), 0 2px 0 #000;
-    }
+		box-shadow: 0 0 20px rgba(218, 112, 214, .6), inset 0 0 10px rgba(218, 112, 214, .4), 0 2px 0 #000;
+	}
 }
 
 @-o-keyframes glow {
-    0% {
+	0% {
 		border-color: rgb(187, 96, 184);
-		box-shadow: 0 0 5px rgba(218,112,214,.2), inset 0 0 5px rgba(218,112,214,.1), 0 2px 0 #000;
-    }	
-    100% {
+		box-shadow: 0 0 5px rgba(218, 112, 214, .2), inset 0 0 5px rgba(218, 112, 214, .1), 0 2px 0 #000;
+	}
+
+	100% {
 		border-color: rgb(250, 130, 246);
-		box-shadow: 0 0 20px rgba(218,112,214,.6), inset 0 0 10px rgba(218,112,214,.4), 0 2px 0 #000;
-    }
+		box-shadow: 0 0 20px rgba(218, 112, 214, .6), inset 0 0 10px rgba(218, 112, 214, .4), 0 2px 0 #000;
+	}
 }
 
 @-ms-keyframes glow {
-    0% {
+	0% {
 		border-color: rgb(187, 96, 184);
-		box-shadow: 0 0 5px rgba(218,112,214,.2), inset 0 0 5px rgba(218,112,214,.1), 0 2px 0 #000;
-    }	
-    100% {
+		box-shadow: 0 0 5px rgba(218, 112, 214, .2), inset 0 0 5px rgba(218, 112, 214, .1), 0 2px 0 #000;
+	}
+
+	100% {
 		border-color: rgb(250, 130, 246);
-		box-shadow: 0 0 20px rgba(218,112,214,.6), inset 0 0 10px rgba(218,112,214,.4), 0 2px 0 #000;
-    }
+		box-shadow: 0 0 20px rgba(218, 112, 214, .6), inset 0 0 10px rgba(218, 112, 214, .4), 0 2px 0 #000;
+	}
 }
 
 @keyframes glow {
-    0% {
+	0% {
 		border-color: rgb(187, 96, 184);
-		box-shadow: 0 0 5px rgba(218,112,214,.2), inset 0 0 5px rgba(218,112,214,.1), 0 2px 0 #000;
-    }	
-    100% {
+		box-shadow: 0 0 5px rgba(218, 112, 214, .2), inset 0 0 5px rgba(218, 112, 214, .1), 0 2px 0 #000;
+	}
+
+	100% {
 		border-color: rgb(250, 130, 246);
-		box-shadow: 0 0 20px rgba(218,112,214,.6), inset 0 0 10px rgba(218,112,214,.4), 0 2px 0 #000;
-    }
+		box-shadow: 0 0 20px rgba(218, 112, 214, .6), inset 0 0 10px rgba(218, 112, 214, .4), 0 2px 0 #000;
+	}
 }
 
 .header__busqueda__descripcion__landing {
@@ -320,13 +307,14 @@ body{
 	.header__busqueda__descripcion__landing {
 		font-size: 2rem;
 		margin: 3.5rem 10% 4rem 30%;
-	
+
 	}
+
 	.header__busqueda__descripcion {
 		font-size: 2rem;
 		margin: 3.5rem 10% 4rem 10%;
 		text-align: center;
-	
+
 	}
 
 }
@@ -336,28 +324,22 @@ body{
 
 
 
-.login{
+.login {
 	width: 15%;
 	text-align: center;
 }
 
 @media screen and (max-width: 780px) {
-	.login{
+	.login {
 		width: 100%;
 		text-align: right;
 	}
 }
 
 
-#login, #btn__ofertas{
+#login,
+#btn__ofertas {
 	border-radius: 5px;
 	border-left-color: #444;
 }
 
-
-
-/*
-.login header__btn {
-	
-}
-*/

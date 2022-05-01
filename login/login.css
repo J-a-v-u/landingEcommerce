@@ -9,59 +9,47 @@
     width: 80%;
     margin: 5rem 10%;
     text-align: center;
-   
-    
 }
+
 #login__login {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3rem 0;
-
-    /*
-    background-color:rgba(231, 119, 228, 0.2);
-    background: linear-gradient(to right, black, rgb(110, 56, 109), black);
-	background: -prefix-linear-gradient(right, black, rgb(110, 56, 109), black);
-*/
-
-
-
     background-color: rgba(33, 4, 39, 0.41);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, .1);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
     backdrop-filter:
-    blur(15px)
-    saturate(1000%);
+        blur(15px) saturate(1000%);
     box-shadow:
-    inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
-    inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
-    0 0 10px 1px rgba(0, 0, 0, 0.25);
-
+        inset 4px 4px 5px 0 rgba(255, 255, 255, .25),
+        inset -4px -4px 5px 0 rgba(0, 0, 0, 0.125),
+        0 0 10px 1px rgba(0, 0, 0, 0.25);
 }
 
 .login__login__titulos {
-    color:rgb(252, 239, 127);
-   margin: 1.5rem 0 0 0;
+    color: rgb(252, 239, 127);
+    margin: 1.5rem 0 0 0;
 }
-#login__login input{
- display: block;
- margin: 1rem 0;
- }
 
- .error__password, .error__user {
+#login__login input {
+    display: block;
+    margin: 1rem 0;
+}
+
+.error__password,
+.error__user {
     color: orchid;
     font-size: 1rem;
     text-align: left;
     visibility: hidden;
-  }
-
+}
 
 #password:disabled {
     background: rgb(86, 74, 86);
 }
 
- #login-btn:disabled {
-     background: rgb(86, 74, 86);
- }
+#login-btn:disabled {
+    background: rgb(86, 74, 86);
+}

@@ -1,33 +1,32 @@
-
-
-.texto{
+.texto {
     margin: 4rem 10%;
-    color:rgb(252, 239, 127);
+    color: rgb(252, 239, 127);
 }
+
 @media screen and (max-width: 1023px) {
-	.texto{
-	margin: 2rem 5%;
-	}
+    .texto {
+        margin: 2rem 5%;
+    }
 }
 
 
- 
+
 .texto__quienessomos {
-   
-    margin:2rem 0;
-    background-color:rgba(231, 119, 228, 0.2);
+
+    margin: 2rem 0;
+    background-color: rgba(231, 119, 228, 0.2);
     padding: 1.5rem;
 }
 
-.texto__quienessomos h2{
+.texto__quienessomos h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 1rem;
     font-weight: bold;
-    }
+}
 
-.texto__quienessomos p{
-    text-align: justify ;
-    font-size: 1.25rem        
+.texto__quienessomos p {
+    text-align: justify;
+    font-size: 1.25rem
 }
 
 
@@ -35,10 +34,10 @@
     list-style-type: decimal;
 }
 
-.texto__quienessomos li{
-    text-align: justify ;
-    font-size: 1.25rem;      
-    margin: 1rem 0; 
+.texto__quienessomos li {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin: 1rem 0;
 }
 
 
@@ -46,62 +45,62 @@
 .texto__contenedor1 {
     width: 70%;
     margin: 1rem 15%;
-     
+
 }
-.texto__contenedor1 iframe{
+
+.texto__contenedor1 iframe {
     width: 100%;
     height: 45vw;
 }
 
 
 .texto__problema {
-   
-    background-color:rgba(231, 119, 228, 0.2);
+
+    background-color: rgba(231, 119, 228, 0.2);
     padding: 1.5rem;
 }
 
-.texto__problema h2{
+.texto__problema h2 {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 1rem;    
-    }
+    margin-bottom: 1rem;
+}
 
-.texto__problema p{
-    text-align: justify ;
+.texto__problema p {
+    text-align: justify;
     font-size: 1.25rem
-        
 }
 
 
 .texto__contenedor2 {
-    display:flex;
-    justify-content: center;    
+    display: flex;
+    justify-content: center;
     justify-content: space-around;
     margin: 1rem 0;
-  }
+}
 
-  .texto__contenedor2 img{
+.texto__contenedor2 img {
     width: 40%;
-  }
+}
 
 
 
 .texto__proposito {
-   
-    margin:2rem 0;
-    background-color:rgba(231, 119, 228, 0.2);
+
+    margin: 2rem 0;
+    background-color: rgba(231, 119, 228, 0.2);
     padding: 1.5rem;
 }
 
-.texto__proposito h2{
+.texto__proposito h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 1rem;
     font-weight: bold;
-    }
+}
 
-.texto__proposito p{
-    text-align: justify ;
-    font-size: 1.25rem        
+.texto__proposito p {
+    text-align: justify;
+    font-size: 1.25rem
 }
 
 
@@ -109,10 +108,10 @@
     list-style-type: decimal;
 }
 
-.texto__proposito li{
-    text-align: justify ;
-    font-size: 1.25rem;      
-    margin: 1rem 0; 
+.texto__proposito li {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin: 1rem 0;
 }
 
 
@@ -122,90 +121,84 @@
     margin: 1rem 0;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  .texto__contenedor3 img{
+}
+
+.texto__contenedor3 img {
     width: 30%;
-  }
-  .texto__contenedor3_b img{
-        width: 50%;
-        margin: 1rem 25%;
-  }
+}
 
-
+.texto__contenedor3_b img {
+    width: 50%;
+    margin: 1rem 25%;
+}
 
 .texto__conservacion {
-   
-    margin:2rem 0;
-    background-color:rgba(231, 119, 228, 0.2);
+
+    margin: 2rem 0;
+    background-color: rgba(231, 119, 228, 0.2);
     padding: 1.5rem;
 }
 
-.texto__conservacion h2{
+.texto__conservacion h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 1rem;
     font-weight: bold;
-    }
+}
 
 .texto__conservacion ol {
     list-style-type: decimal;
 }
 
-.texto__conservacion li{
-    text-align: justify ;
-    font-size: 1.25rem;      
-    margin: 1rem 0; 
+.texto__conservacion li {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin: 1rem 0;
 }
 
-
-
 .texto__contenedor4 {
-    display:flex;
-    justify-content: center;    
+    display: flex;
+    justify-content: center;
     justify-content: space-around;
     margin: 1rem 0;
     flex-wrap: wrap;
 }
 
 
-.texto__contenedor4 img{
-width: 22%;
+.texto__contenedor4 img {
+    width: 22%;
 }
 
 @media screen and (max-width: 780px) {
-	.texto__contenedor4 img{
+    .texto__contenedor4 img {
         width: 43%;
-        padding: 1rem 0;;
-        }
-        
+        padding: 1rem 0;
+        ;
+    }
+
 }
 
-
-
 .texto__valor {
-    
-    margin:2rem 0;
-    background-color:rgba(231, 119, 228, 0.2);
+
+    margin: 2rem 0;
+    background-color: rgba(231, 119, 228, 0.2);
     padding: 1.5rem;
 }
 
-.texto__valor h2{
+.texto__valor h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 1rem;
     font-weight: bold;
-    }
+}
 
 .texto__valor ol {
     list-style-type: circle;
 }
 
-.texto__valor li{
-    text-align: justify ;
-    font-size: 1.25rem;      
-    margin: 1rem 0; 
+.texto__valor li {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin: 1rem 0;
 }
-
-
 
 .texto__contenedor5 {
     display: flex;
@@ -213,57 +206,50 @@ width: 22%;
     margin: 1rem 0;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  .texto__contenedor5 img{
+}
+
+.texto__contenedor5 img {
     width: 40%;
-  }
+}
 
 
 
 .texto__historia {
-    
-    margin:2rem 0;
-    background-color:rgba(231, 119, 228, 0.2);
+
+    margin: 2rem 0;
+    background-color: rgba(231, 119, 228, 0.2);
     padding: 1.5rem;
 }
 
-.texto__historia h2{
+.texto__historia h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 1rem;
     font-weight: bold;
-    }
-
-.texto__historia li{
-    text-align: justify ;
-    font-size: 1.25rem;      
-    margin: 1rem 0; 
 }
 
-
-
-
-
-
-
+.texto__historia li {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
 
 .texto__estacion {
-    
-    margin:2rem 0;
-    background-color:rgba(231, 119, 228, 0.2);
+
+    margin: 2rem 0;
+    background-color: rgba(231, 119, 228, 0.2);
     padding: 1.5rem;
 }
 
-.texto__estacion h2{
+.texto__estacion h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 1rem;
     font-weight: bold;
-    }
+}
 
-.texto__estacion li{
-    text-align: justify ;
-    font-size: 1.25rem;      
-    margin: 1rem 0; 
+.texto__estacion li {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin: 1rem 0;
 }
 
 .texto__contenedor6 {
@@ -272,23 +258,9 @@ width: 22%;
     margin: 1rem 0;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  .texto__contenedor6 img{
+}
+
+.texto__contenedor6 img {
     width: 30%;
     margin: 1rem 0;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
